@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1>Formulario de Datos</h1>
+	<form action="">
+
+		<p>
+		<label for="">Nombre:</label><br>
+		<input type="text" name="nombre" required/><br>
+		</p>
+
+		<p>
+		<label for="">Apellido:</label><br> 
+		<input type="apellido" name="apellido" required/><br>
+		</p>
+
+		<p>
+		<label for="fo">Teléfono:<br></label> 	
+		<input  type="fono" name="fo"  pattern=".{9,}" title="99999999" required/><br>
+		</p>
+
+		<p>
+			<label for="">Escoge tu transporte diario para continuar:</label><br>
+			<select name="select">
+				<option value="value1">auto</option>
+				<option value="value2">moto</option>
+				<option value="value3">bicicleta</option>
+				<option value="value4">transporte publico</option>
+				<option value="value5">a pie</option>	
+			</select><br>
+		</p>	
+
+		<p>
+		<label for="em">Email:</label><br>	
+		<input type="email" name="em" title="email@email.com" pattern: [a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5} required/><br>
+		</p>
+
+		<p>
+		<label for="pw">Contraseña:</label><br>
+		<input type="password" name="pw" pattern=".{6,}" title="6 o más carácteres" required/><br>
+		</p>
+
+		<input type="submit" name="save">
+		
+
+	</form>
+
+
+
+
+	<script src="assets/js/javascript.js"></script>
+</body>
+</html>
