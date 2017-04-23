@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<h1>Formulario de Datos</h1>
-	<form action="">
+<font size="12" color="grey" face=""></font>
+<h1 align="center">Formulario de Datos</h1>
+	<form action="" align="center">
 
 		<p>
 		<label for="">Nombre:</label><br>
@@ -26,7 +27,8 @@
 
 		<p>
 			<label for="">Escoge tu transporte diario para continuar:</label><br>
-			<select name="select">
+			<select name="select" required>
+				<option value="">Escoge tu transporte</option>
 				<option value="value1">auto</option>
 				<option value="value2">moto</option>
 				<option value="value3">bicicleta</option>
@@ -45,14 +47,12 @@
 		<input type="password" name="pw" pattern=".{6,}" title="6 o más carácteres" required/><br>
 		</p>
 
-		<input type="submit" name="save">
-		
+		<input type="submit" name="save">		
 
 	</form>
 
-
-
-
 	<script src="assets/js/javascript.js"></script>
+
+</center>
 </body>
 </html>
